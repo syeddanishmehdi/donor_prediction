@@ -1,8 +1,28 @@
 **Predicting Donor Response and Donation Amount in Fundraising Campaign**
 
-This project applies supervised machine learning to help fundraising organizations:
+Table of Contents
+Features
+Project Structure
+Installation
+Usage
+Sample Results
+Contributing
+License
+Contact
 
-- Predict which donors will respond to a campaign (classification)
-- Estimate how much they will donate (regression)
+**Features**
+- Binary Classification: Predicts which donors will respond using Logistic Regression, Decision Tree, Random Forest, and Neural Network.
+- Regression: Estimates donation amount using Linear Regression.
+- Data Preprocessing: Imputes missing values, scales features, encodes categorical variables, and treats outliers.
+- Performance Evaluation: Uses metrics like Precision, Recall, F1-Score, ROC AUC, RMSE, and R².
+- Modular Code: Easily adaptable for other fundraising or prediction datasets.
 
-Techniques include Logistic Regression, Decision Tree, Random Forest, Neural Network, and Linear Regression. The workflow covers data cleaning, feature engineering, model training, and evaluation.
+
+**Installation**
+- Clone the repository:
+
+git clone https://github.com/syeddanishmehdi/donor_prediction.git
+cd donor_prediction
+
+
+
